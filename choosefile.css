@@ -1,0 +1,17 @@
+#flexDiv{
+  display: none;
+  align-items: center;
+  gap: 30px;
+}
+
+.imgg{
+  border-radius: 50%;
+  width: 300px;
+  height: 300px;
+}
+
+#arrow, #arrows{
+  visibility: hidden;
+}
+
+

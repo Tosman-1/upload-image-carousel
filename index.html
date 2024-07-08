@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>choose file</title>
+    <link rel="stylesheet" href="choosefile.css" />
+  </head>
+  <body>
+    <div>
+      <div id="flexDiv">
+        <div class="prev-div" onclick="prev()">
+          <svg
+            id="arrows"
+            xmlns="http://www.w3.org/2000/svg"
+            height="24px"
+            viewBox="0 -960 960 960"
+            width="24px"
+            fill="black"
+          >
+            <path d="M400-80 0-480l400-400 71 71-329 329 329 329-71 71Z" />
+          </svg>
+        </div>
+        <div>
+          <img src="" alt="" id="image" class="imgg" />
+        </div>
+        <div onclick="next()">
+          <svg
+            id="arrow"
+            xmlns="http://www.w3.org/2000/svg"
+            height="24px"
+            viewBox="0 -960 960 960"
+            width="24px"
+            fill="black"
+          >
+            <path d="m321-80-71-71 329-329-329-329 71-71 400 400L321-80Z" />
+          </svg>
+        </div>
+      </div>
+      <input onchange="chooseFile(event)" type="file" />
+    </div>
+
+    <script src="choosefile.js" ;></script>
+  </body>
+</html>
